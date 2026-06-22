@@ -13,9 +13,8 @@ struct Student {
     int score;
 };
 
-// ===========
+
 // Template 延伸挑戰題
-// ===========
 template <class T>
 T getMax(T a, T b) {
     return (a > b) ? a : b;
